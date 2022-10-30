@@ -46,12 +46,12 @@ namespace FTP_Snipping_Tool
 
         private void snipped_Load(object sender, EventArgs e)
         {
-            string host = Properties.Settings.Default.host;
-            string url = Properties.Settings.Default.webURL;
-            int port = Properties.Settings.Default.port;
-            string username = Properties.Settings.Default.username;
-            string password = Properties.Settings.Default.password;
-            string initialPath = Properties.Settings.Default.screenshotPath;
+            host = Properties.Settings.Default.host;
+            url = Properties.Settings.Default.webURL;
+            port = Properties.Settings.Default.port;
+            username = Properties.Settings.Default.username;
+            password = Properties.Settings.Default.password;
+            initialPath = Properties.Settings.Default.screenshotPath;
 
             if (host == defaultHost || initialPath == defaultScreenshotPath || url == defaultwebURL)
             {
@@ -87,8 +87,7 @@ namespace FTP_Snipping_Tool
         }
 
         public void upload()
-        {   try
-            {
+        {   
                 using (SftpClient client = new SftpClient(new PasswordConnectionInfo(host, port, username, password)))
                 {
                     try
@@ -128,15 +127,10 @@ namespace FTP_Snipping_Tool
                 {
                     File.Delete(saveTo); //delete temp image
                 }
-                Clipboard.SetText(url + "\\" + filename);
+                Clipboard.SetText(url + "/" + filename);
                 txtStatus.Text = "Uploaded! Link copied to clipboard.";
-                txtURL.Text = url + "\\" + filename;
-            } catch (Exception ex)
-            {
-                MessageBox.Show("An error occured. Please check your configuration.\n\n" + ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtStatus.Text = "An error occured.";
-                txtURL.Text = "An error occured.";
-            }
+                txtURL.Text = url + "/" + filename;
+            
             
         }
 

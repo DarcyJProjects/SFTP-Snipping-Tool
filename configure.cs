@@ -50,6 +50,7 @@ namespace FTP_Snipping_Tool
                 Properties.Settings.Default.password = txtPassword.Text;
                 Properties.Settings.Default.screenshotPath = txtScreenshotpath.Text;
                 Properties.Settings.Default.webURL = txtWebURL.Text;
+                Properties.Settings.Default.Save();
                 MessageBox.Show("Saved!", "Configuration Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

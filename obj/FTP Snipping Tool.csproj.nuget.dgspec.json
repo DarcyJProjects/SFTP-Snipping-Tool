@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darcy\\OneDrive\\Desktop\\Software\\FTP Snipping Tool\\FTP Snipping Tool.csproj": {}
+    "D:\\Coding Projects\\SFTP Snipping Tool\\FTP Snipping Tool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darcy\\OneDrive\\Desktop\\Software\\FTP Snipping Tool\\FTP Snipping Tool.csproj": {
+    "D:\\Coding Projects\\SFTP Snipping Tool\\FTP Snipping Tool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darcy\\OneDrive\\Desktop\\Software\\FTP Snipping Tool\\FTP Snipping Tool.csproj",
+        "projectUniqueName": "D:\\Coding Projects\\SFTP Snipping Tool\\FTP Snipping Tool.csproj",
         "projectName": "FTP Snipping Tool",
-        "projectPath": "C:\\Users\\darcy\\OneDrive\\Desktop\\Software\\FTP Snipping Tool\\FTP Snipping Tool.csproj",
+        "projectPath": "D:\\Coding Projects\\SFTP Snipping Tool\\FTP Snipping Tool.csproj",
         "packagesPath": "C:\\Users\\darcy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darcy\\OneDrive\\Desktop\\Software\\FTP Snipping Tool\\obj\\",
+        "outputPath": "D:\\Coding Projects\\SFTP Snipping Tool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

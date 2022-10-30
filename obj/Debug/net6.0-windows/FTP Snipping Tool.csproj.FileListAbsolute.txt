@@ -22,3 +22,27 @@ C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-wind
 C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.CopyComplete
 C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.configure.resources
 C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.about.resources
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.exe
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.deps.json
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.runtimeconfig.json
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.dll
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.pdb
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\Renci.SshNet.dll
+D:\Coding Projects\SFTP Snipping Tool\bin\Debug\net6.0-windows\SshNet.Security.Cryptography.dll
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.AssemblyReference.cache
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.about.resources
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.configure.resources
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.Main.resources
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.Properties.Resources.resources
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.snipped.resources
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.GenerateResource.cache
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.AssemblyInfoInputs.cache
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.AssemblyInfo.cs
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.CoreCompileInputs.cache
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.CopyComplete
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.dll
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\refint\FTP Snipping Tool.dll
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.pdb
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.genruntimeconfig.cache
+D:\Coding Projects\SFTP Snipping Tool\obj\Debug\net6.0-windows\ref\FTP Snipping Tool.dll
