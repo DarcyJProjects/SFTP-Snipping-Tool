@@ -1,0 +1,24 @@
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.AssemblyReference.cache
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.Main.resources
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.GenerateResource.cache
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.AssemblyInfoInputs.cache
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.AssemblyInfo.cs
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.CoreCompileInputs.cache
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.exe
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.deps.json
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.runtimeconfig.json
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\FTP Snipping Tool.pdb
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\refint\FTP Snipping Tool.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.pdb
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.genruntimeconfig.cache
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\ref\FTP Snipping Tool.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.snipped.resources
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.Properties.Resources.resources
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\Renci.SshNet.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\bin\Debug\net6.0-windows\SshNet.Security.Cryptography.dll
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP Snipping Tool.csproj.CopyComplete
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.configure.resources
+C:\Users\darcy\OneDrive\Desktop\Software\FTP Snipping Tool\obj\Debug\net6.0-windows\FTP_Snipping_Tool.about.resources

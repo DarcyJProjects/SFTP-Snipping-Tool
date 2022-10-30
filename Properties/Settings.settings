@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FTP_Snipping_Tool.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IP or domain</Value>
+    </Setting>
+    <Setting Name="port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+    <Setting Name="username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">username</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="screenshotPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E.G. /var/www/screenshots.darcyjprojects.xyz/</Value>
+    </Setting>
+    <Setting Name="webURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E.G. https://screenshots.darcyjprojects.xyz</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
