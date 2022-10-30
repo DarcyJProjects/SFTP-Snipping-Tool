@@ -85,8 +85,8 @@ namespace FTP_Snipping_Tool
                     //starts coordinates for rectangle
                     selectX = e.X;
                     selectY = e.Y;
-                    selectPen = new Pen(Color.Red, 1);
-                    selectPen.DashStyle = DashStyle.DashDotDot;
+                    selectPen = new Pen(Color.Crimson, 5);
+                    selectPen.DashStyle = DashStyle.Dash;
                 }
                 //refresh picture box
                 pictureBox1.Refresh();

@@ -37,6 +37,15 @@ namespace FTP_Snipping_Tool
             txtWebURL.Text = Properties.Settings.Default.webURL;
         }
 
+        private void btnDefault_Click(object sender, EventArgs e)
+        {
+            txtHost.Text = "IP or domain";
+            txtPort.Text = "22";
+            txtUsername.Text = "username";
+            txtPassword.Text = "password";
+            txtScreenshotpath.Text = "E.G. /var/www/screenshots.darcyjprojects.xyz/";
+            txtWebURL.Text = "E.G. https://screenshots.darcyjprojects.xyz";
+        }
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (txtPort.ForeColor == Color.Red)
@@ -77,6 +86,18 @@ namespace FTP_Snipping_Tool
         private void configure_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                txtPassword.PasswordChar = '*';
+            } else
+            {
+                Char nullChar = new char();
+                txtPassword.PasswordChar = nullChar;
+            }
         }
     }
 }

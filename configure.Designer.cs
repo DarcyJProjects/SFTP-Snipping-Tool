@@ -31,8 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(configure));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.config = new System.Windows.Forms.TabPage();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnDefault = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -57,13 +60,16 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(582, 342);
+            this.tabControl1.Size = new System.Drawing.Size(582, 403);
             this.tabControl1.TabIndex = 0;
             // 
             // config
             // 
+            this.config.Controls.Add(this.label8);
+            this.config.Controls.Add(this.checkBox1);
             this.config.Controls.Add(this.btnClose);
             this.config.Controls.Add(this.btnSave);
+            this.config.Controls.Add(this.btnDefault);
             this.config.Controls.Add(this.btnReload);
             this.config.Controls.Add(this.label6);
             this.config.Controls.Add(this.label5);
@@ -81,14 +87,37 @@
             this.config.Location = new System.Drawing.Point(4, 29);
             this.config.Name = "config";
             this.config.Padding = new System.Windows.Forms.Padding(3);
-            this.config.Size = new System.Drawing.Size(574, 309);
+            this.config.Size = new System.Drawing.Size(574, 370);
             this.config.TabIndex = 0;
-            this.config.Text = "Configuration";
+            this.config.Text = "SFTP Setup";
             this.config.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(138, 250);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(395, 40);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Note: Password is not stored encrypted. Please create SFTP\r\naccount for only the " +
+    "screenshot directory with strict perms.";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(486, 147);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(63, 24);
+            this.checkBox1.TabIndex = 107;
+            this.checkBox1.Text = "Hide";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(374, 256);
+            this.btnClose.Location = new System.Drawing.Point(374, 314);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(94, 47);
             this.btnClose.TabIndex = 8;
@@ -98,7 +127,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(474, 256);
+            this.btnSave.Location = new System.Drawing.Point(474, 314);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 47);
             this.btnSave.TabIndex = 9;
@@ -106,9 +135,19 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // btnDefault
+            // 
+            this.btnDefault.Location = new System.Drawing.Point(106, 314);
+            this.btnDefault.Name = "btnDefault";
+            this.btnDefault.Size = new System.Drawing.Size(94, 47);
+            this.btnDefault.TabIndex = 7;
+            this.btnDefault.Text = "Default";
+            this.btnDefault.UseVisualStyleBackColor = true;
+            this.btnDefault.Click += new System.EventHandler(this.btnDefault_Click);
+            // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(6, 256);
+            this.btnReload.Location = new System.Drawing.Point(6, 314);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(94, 47);
             this.btnReload.TabIndex = 7;
@@ -198,7 +237,8 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(138, 144);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(411, 27);
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(342, 27);
             this.txtPassword.TabIndex = 4;
             // 
             // txtUsername
@@ -227,13 +267,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 365);
+            this.ClientSize = new System.Drawing.Size(606, 414);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "configure";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SFTP Snipping Tool - Configuration";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.configure_FormClosing);
             this.Load += new System.EventHandler(this.configure_Load);
@@ -264,5 +305,8 @@
         private TextBox txtPassword;
         private TextBox txtUsername;
         private Button btnClose;
+        private Button btnDefault;
+        private Label label8;
+        private CheckBox checkBox1;
     }
 }
