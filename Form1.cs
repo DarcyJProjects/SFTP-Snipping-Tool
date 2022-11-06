@@ -18,6 +18,7 @@ namespace FTP_Snipping_Tool
         int selectWidth;
         int selectHeight;
         public Pen selectPen;
+        Bitmap _img;
 
         //This variable control when you start the right click
         bool start = false;
@@ -112,6 +113,13 @@ namespace FTP_Snipping_Tool
             }
             start = false;
             //function save image to clipboard
+
+            if (selectWidth == 0 || selectHeight == 0)
+            {
+                MessageBox.Show("Invalid parameter for screenshot area! Please try again.\nFor best results, drag from the top left to the bottom right.", "Screenshot Parameter Area Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             SaveToClipboard();
         }
 
@@ -125,7 +133,14 @@ namespace FTP_Snipping_Tool
                 //create bitmap with original dimensions
                 Bitmap OriginalImage = new Bitmap(pictureBox1.Image, pictureBox1.Width, pictureBox1.Height);
                 //create bitmap with selected dimensions
-                Bitmap _img = new Bitmap(selectWidth, selectHeight);
+                try
+                {
+                    _img = new Bitmap(selectWidth, selectHeight);
+                } catch
+                {
+                    MessageBox.Show("Invalid parameter for screenshot area! Please try again.\nFor best results, drag from the top left to the bottom right.", "Screenshot Parameter Area Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 //create graphic variable
                 Graphics g = Graphics.FromImage(_img);
                 //set graphic attributes
